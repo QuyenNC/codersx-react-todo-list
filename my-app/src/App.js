@@ -9,7 +9,20 @@ function App() {
     <div className="App">
       <Header />
       <LoginForm />
-      <TabMenu />
+      <TabMenu items={[
+        {
+          classNames : "fa fa-fw fa-search",
+          label : "SEARCH"
+        },
+        {
+          classNames : "fa fa-fw fa-envelope",
+          label : "CONTACT"
+        },
+        {
+          classNames : "fa fa-fw fa-user",
+          label : "LOGIN"
+        }
+      ]} />
     </div>
   );
 }
