@@ -1,0 +1,30 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.h-left{
+    margin-left: 15px;
+}
+.h-left p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    padding: 15px;
+    color: #000000;
+}
+.h-center{
+}
+.h-right{
+   
+}
+.h-right p{
+    padding: 15px;
+    border: 1px solid black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    color: #555555;
+}

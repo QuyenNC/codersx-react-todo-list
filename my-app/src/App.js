@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import LoginForm from './components/LoginForm';
+import TabMenu from './components/TabMenu';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <hr></hr>
       <LoginForm />
+      <TabMenu />
     </div>
   );
 }

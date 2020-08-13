@@ -1,11 +1,10 @@
 import React from 'react';
-
+import './Header.css';
 
 function Header(){
     return (
         <div className= "Header" >
             <div className="h-left">
-                <i className="fas fa-long-arrow-alt-left"></i>
                 <p>Go back</p>
             </div>
             <div className="h-center">
@@ -15,7 +14,7 @@ function Header(){
                 <p>Sign up</p>
             </div>
         </div>
-    )
+    );
 }
 
 

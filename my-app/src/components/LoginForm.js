@@ -21,8 +21,8 @@ function LoginForm(){
                 <p>Keep me singed in</p>
             </div>
             <div className="HelpWes">
-                <a href="#">Forgot username?</a>
-                <a href="#">Forgot password?</a>
+                <p >Forgot username?</p>
+                <p >Forgot password?</p>
             </div>
         </div>
     )
