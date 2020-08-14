@@ -3,6 +3,7 @@
     background-color: #ddd;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .Menu-1{
     width: 20%;

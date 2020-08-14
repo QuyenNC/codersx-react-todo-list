@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
-
+import './LoginForm.css';
 class LoginForm extends Component {
     render() {
-        const email = "abc@example.com";
+        
         return (
             <div className= "LoginForm" >
                 <div className="l-title">
                     <h1>Sign in </h1>
                 </div>
                 <div className="FormControl">
-                    <label>Username</label>
-                    <input type="text" value={this.props = email} />
-                    <label>Password</label>
-                    <input type="password" />
+                    <div className="input">
+                        <label>Username</label>
+                        <input type="text" defaultValue={this.props} />
+                    </div>
+                    <div className="input">
+                        <label>Password</label>
+                        <input type="password" />
+                    </div>
+                    
                 </div>
                 <div className="Submit">
-                    <button>Signip to Coders-x</button>
+                    <p>Signip to Coders-x</p>
                 </div>
                 <div className="KeepPass">
                     <input type="checkbox" />

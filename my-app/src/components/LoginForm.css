@@ -1,0 +1,103 @@
+.LoginForm{
+    width: 100%;
+}
+.l-title{
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+}
+.FormControl{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.input{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 15px 0px 10px 20px;
+    margin-bottom: 15px;
+}
+.input label{
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #555555;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.input input{
+    width: 100%;
+    border:none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(85, 85, 85, 0.6);
+}
+
+.Submit{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #00BD56;
+    padding: 15px;
+}
+.Submit p{
+    width: 100%; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.KeepPass{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: center;
+}
+.KeepPass input{
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.KeepPass p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(85, 85, 85, 0.7);
+}
+.HelpWes{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+}
+.HelpWes p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-left: 15px;
+    text-decoration:underline ;
+}

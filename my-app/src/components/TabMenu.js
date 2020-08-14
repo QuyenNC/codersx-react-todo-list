@@ -9,8 +9,8 @@ class TabMenu extends Component {
                     <i className="fa fa-fw fa-home"></i>
                     <p>HOME</p>
                     </div> 
-                {this.props.items.map(x =>
-                    <div className="Menu-1 ">
+                {this.props.items.map((x,index) =>
+                    <div className="Menu-1 " key={index}>
                         <i className={x.classNames}></i>
                         <p>{x.label}</p>
                     </div> 
