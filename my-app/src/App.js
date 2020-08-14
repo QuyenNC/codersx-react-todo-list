@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <LoginForm />
+      <LoginForm email="" />
       <TabMenu items={[
         {
           classNames : "fa fa-fw fa-search",

@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 
 class LoginForm extends Component {
     render() {
+        const email = "abc@example.com";
         return (
             <div className= "LoginForm" >
                 <div className="l-title">
-                    <h1>Sign in</h1>
+                    <h1>Sign in </h1>
                 </div>
                 <div className="FormControl">
                     <label>Username</label>
-                    <input type="text" />
+                    <input type="text" value={this.props = email} />
                     <label>Password</label>
                     <input type="password" />
                 </div>
