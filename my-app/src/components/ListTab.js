@@ -4,7 +4,7 @@ class  ListTab extends Component {
     
     render() {
         let className = "asd";
-        if(this.props.listTab.stt % 2 == 0){
+        if(this.props.listTab.stt % 2 === 0){
             className += " is-even";
         }
         const items = (

@@ -1,0 +1,23 @@
+.Notification{
+    width: 40%;
+    margin: 0 auto;   
+}
+.bell{
+    position: relative;
+}
+.bell img {
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 150px;
+    height: 150px;
+}
+.bell p{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 100%;
+}

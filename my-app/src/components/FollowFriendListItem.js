@@ -7,7 +7,7 @@ class FollowFriendListItem extends Component {
             <div className="FollowFriendListItem">
                 <div className="box-left">
                     <div className="img">
-                        <img src={this.props.img} alt=""/>
+                        <img src={this.props.img.avatar} alt=""/>
                     </div>
                     <div className="text">
                         <p>{this.props.name}</p>
