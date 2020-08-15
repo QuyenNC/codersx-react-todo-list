@@ -4,6 +4,7 @@ import Header from './components/Header';
 import LoginForm from './components/LoginForm';
 import TabMenu from './components/TabMenu';
 import RecommendedFriends from './components/RecommendedFriends';
+import Table from './components/Table';
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
           }
         ]} />
         <RecommendedFriends />
+        <Table  />
       </div>
     );
   }
