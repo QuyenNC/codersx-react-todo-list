@@ -11,7 +11,7 @@ class LoginForm extends Component {
                 <div className="FormControl">
                     <div className="input">
                         <label>Username</label>
-                        <input type="text" defaultValue={this.props} />
+                        <input type="text" placeholder={this.props.email} />
                     </div>
                     <div className="input">
                         <label>Password</label>
