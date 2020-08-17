@@ -6,6 +6,7 @@ import TabMenu from './components/TabMenu';
 import RecommendedFriends from './components/RecommendedFriends';
 import Table from './components/Table';
 import Notification from './components/Notification';
+import SearchBox from './components/SearchBox';
 class App extends Component {
   render() {
     const email = "abc@example.com";
@@ -30,6 +31,7 @@ class App extends Component {
         <RecommendedFriends />
         <Table  />
         <Notification />
+        <SearchBox/>
       </div>
     );
   }

@@ -15,7 +15,7 @@ class Notification extends Component {
             <div className="Notification">
                   <div className="bell">
                       <img src={notification} alt="Notification"/>
-                      {this.friends.hasUnread === false && <p></p>}
+                      {this.friends.hasUnread === true && <p></p>}
                   </div>
             </div>
         );
