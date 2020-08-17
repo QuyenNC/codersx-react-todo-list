@@ -1,17 +1,31 @@
 import React, { Component } from 'react';
 import './SearchBox.css';
 import search from '../image/search.png';
+import classNames from 'classnames';
 class SearchBox extends Component {
     constructor(){
         super();
         this.state={
-            isFocused : true
+            isFocused : false,
+            valText : true
         };
         this.setStateFocus =  () => {
             this.setState({
                 isFocused : this.showIconSearch(this.state.isFocused)
             })
         };
+        this.valTextInput = (event) => {
+            this.setState({
+                valText : this.valText(event.target.value.length)
+            })
+        };
+    }
+    valText(textInput){
+        console.log(textInput);
+        if(textInput > 10){
+            return false;
+        }
+        
     }
     showIconSearch(isFocus){
         switch(isFocus){
@@ -24,13 +38,13 @@ class SearchBox extends Component {
         }
     };
     render() {
-        const {isFocused} = this.state;
+        const {isFocused ,valText} = this.state;
         let  items = (
             <div className="SearchBox">
                 <div className="inputBox">
-                    <input type="text" placeholder="Type something to search ..." onFocus={this.setStateFocus
-                       } onBlur={this.setStateFocus} />
-                    {isFocused === true && 
+                    <input className={classNames({valText:valText === false  })} type="text" placeholder="Type something to search ..." onFocus={this.setStateFocus
+                       } onBlur={this.setStateFocus} onKeyUp={this.valTextInput } />
+                    {isFocused === false && 
                         <div className="icon" >
                             <img src={search} alt="search"/>
                         </div> 

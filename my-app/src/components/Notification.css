@@ -1,6 +1,7 @@
 .Notification{
     width: 100%;
     height: 150px;
+    margin-bottom: 20px;
 }
 .bell{
     width: 40%;
