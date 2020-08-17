@@ -15,17 +15,16 @@ class SearchBox extends Component {
             })
         };
         this.valTextInput = (event) => {
+            const value  = event.target.value;
             this.setState({
-                valText : this.valText(event.target.value.length)
+                valText : this.valText(value.length,value.indexOf('090'))
             })
         };
     }
-    valText(textInput){
-        console.log(textInput);
-        if(textInput > 10){
+    valText(textInput,typeofInput){
+        if(textInput > 10 || typeofInput !== 0  ){
             return false;
         }
-        
     }
     showIconSearch(isFocus){
         switch(isFocus){
@@ -42,7 +41,7 @@ class SearchBox extends Component {
         let  items = (
             <div className="SearchBox">
                 <div className="inputBox">
-                    <input className={classNames({valText:valText === false  })} type="text" placeholder="Type something to search ..." onFocus={this.setStateFocus
+                    <input className={classNames({valText:valText === false  })} type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Type something to search ..." onFocus={this.setStateFocus
                        } onBlur={this.setStateFocus} onKeyUp={this.valTextInput } />
                     {isFocused === false && 
                         <div className="icon" >
