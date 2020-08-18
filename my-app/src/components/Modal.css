@@ -1,0 +1,94 @@
+.Modal{
+    height: 500px;
+}
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+.active{
+    display: none;
+}
+.openModal{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    background: #28A745;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    outline: none;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; 
+    }
+.text{
+    width: 100%;
+    text-align: justify;
+}
+.text p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #373737;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fotter{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    width: 50%;
+    padding: 30px 0px 30px 0px; 
+}
+.btn button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    background: #28A745;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    outline: none;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+.btn button:nth-child(2){
+    margin-left: 20px;
+    background: #D63447;
+}

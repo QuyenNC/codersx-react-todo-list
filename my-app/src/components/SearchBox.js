@@ -41,7 +41,7 @@ class SearchBox extends Component {
         let  items = (
             <div className="SearchBox">
                 <div className="inputBox">
-                    <input className={classNames({valText:valText === false  })} type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Type something to search ..." onFocus={this.setStateFocus
+                    <input className={classNames({valText:valText === false  })} type="text" placeholder="Type something to search ..." onFocus={this.setStateFocus
                        } onBlur={this.setStateFocus} onKeyUp={this.valTextInput } />
                     {isFocused === false && 
                         <div className="icon" >
