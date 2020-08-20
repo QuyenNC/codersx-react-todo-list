@@ -11,7 +11,7 @@ class Showmodal extends Component {
                 {complete.isComplete === false && 
                     <Modal onclick={onclick} complete={complete}>
                         <h1>This is a modal 1</h1>
-                       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco lab
                             oris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volupta
                             te velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
