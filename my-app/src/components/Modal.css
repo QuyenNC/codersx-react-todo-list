@@ -1,6 +1,4 @@
-.Modal{
-    height: 500px;
-}
+
 .modal {
     display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -17,20 +15,7 @@
 .active{
     display: none;
 }
-.openModal{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 150%;
-    background: #28A745;
-    font-feature-settings: 'tnum' on, 'lnum' on;
-    color: #FFFFFF;
-    outline: none;
-    padding: 10px 30px 10px 30px;
-    border: none;
-    cursor: pointer;
-}
+
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto; 

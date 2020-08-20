@@ -7,7 +7,7 @@ import RecommendedFriends from './components/RecommendedFriends';
 import Table from './components/Table';
 import Notification from './components/Notification';
 import SearchBox from './components/SearchBox';
-import Modal from './components/Modal';
+import Showmodal from './components/Showmodal';
 class App extends Component {
   constructor() {
     super();
@@ -54,7 +54,7 @@ class App extends Component {
         <Table  />
         <Notification />
         <SearchBox/>
-        <Modal onclick={this.openModal} complete={this.state}/>
+        <Showmodal onclick={this.openModal} complete={this.state}/>
       </div>
     );
   }
